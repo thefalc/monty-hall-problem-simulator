@@ -6,10 +6,10 @@ HEADS = 0
 WIN_STATE = 'car'
 LOSE_STATE = 'goat'
 
-# default setting for number of rounds
-num_of_rounds = 10000
-
 def main():
+	# default setting for number of rounds
+	num_of_rounds = 10000
+
 	if len(sys.argv) > 1:
 		num_of_rounds = int(sys.argv[1])
 
